@@ -1,0 +1,174 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#navbar {
+  background-color: black;
+  padding: 10px 0;
+}
+#navbar .navbar-toggler {
+  background-color: transparent;
+  border: none;
+}
+#navbar .navbar-toggler i {
+  color: rgb(192, 180, 67);
+  font-size: 23px;
+}
+#navbar #logo img {
+  max-height: 40px;
+}
+#navbar .nav-link {
+  color: rgb(192, 180, 67);
+}
+#navbar button.btn.btn-outline-success[type=submit] {
+  background-color: rgb(150, 138, 36);
+  border: 2px solid black;
+  color: black;
+  font-size: 15px;
+  padding: 15px 30px;
+}
+#navbar button.btn.btn-outline-success[type=submit]:hover {
+  background-color: rgb(129, 92, 21);
+  border: 1px solid black;
+  color: black;
+}
+
+#home {
+  background-image: url("menu-item1.jpg");
+  background-size: cover;
+  background-position: center;
+  color: rgb(15, 15, 15);
+  text-align: center;
+  padding: 100px 0;
+}
+#home h3 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+#home p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+#home #btn {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: rgb(150, 138, 36);
+  color: rgb(141, 103, 20);
+}
+
+#about-us {
+  background-color: white;
+  padding: 50px 0;
+  color: black;
+}
+#about-us h3 {
+  font-size: 36px;
+}
+#about-us p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+#about-us .card {
+  display: flex;
+  align-items: center;
+}
+#about-us .card img {
+  max-width: 65%;
+  margin-right: 50px;
+}
+
+.menu {
+  padding: 50px 0;
+  background-color: rgb(192, 180, 67);
+}
+.menu .heading3 {
+  font-size: 42px;
+  font-weight: bold;
+}
+.menu .card {
+  text-align: center;
+}
+.menu .card img {
+  max-width: 100%;
+}
+.menu .card .star i {
+  color: yellow;
+}
+
+#team {
+  padding: 50px 0;
+}
+#team h2 {
+  font-size: 36px;
+}
+#team p {
+  font-size: 18px;
+}
+#team .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+#team .row .col-md-3 img {
+  max-width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 1px solid #ccc;
+  margin: 10px;
+}
+
+.contact {
+  background-color: white;
+  padding: 50px 0;
+  color: black;
+}
+.contact .heading6 {
+  font-size: 36px;
+}
+.contact p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+.contact input[type=text],
+.contact input[type=email],
+.contact input[type=number] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.contact #contact-btn {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: rgb(192, 180, 67);
+  color: rgb(8, 8, 8);
+}
+.contact #col h1 {
+  font-size: 24px;
+}
+.contact #col p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+#footer {
+  background-color: black;
+  padding: 50px 0;
+}
+#footer .footer-logo img {
+  max-height: 60px;
+}
+#footer .social-links i {
+  font-size: 24px;
+  margin: 0 10px;
+  color: rgb(192, 180, 67);
+}
+#footer .credit a {
+  color: rgb(192, 180, 67);
+  font-weight: bold;
+  text-decoration: none;
+}
+#footer .copyright {
+  font-size: 18px;
+  color: rgb(192, 180, 67);
+  margin: 20px 0;
+}/*# sourceMappingURL=style.css.map */
